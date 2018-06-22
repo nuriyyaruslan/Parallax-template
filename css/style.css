@@ -1,0 +1,58 @@
+/*@font-face {*/
+/*font-family: SourceSansPro-Bold;*/
+/*src:url('../fonts/SourceSansPro-Bold.otf')*/
+/*}*/
+
+body{
+    background: #f3f3f3;
+}
+
+a{
+    text-decoration: none !important;
+    cursor:pointer;
+}
+*{
+    word-wrap: break-word;
+}
+.btn{
+    text-transform: inherit;
+}
+ul{
+    list-style: none;
+    padding-left:0;
+}
+.no-padding{
+    padding:0 !important;
+}
+.no-margin{
+    margin:0 !important;
+}
+.row{
+    margin-bottom:0;
+}
+.rl-padding{
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+.container{
+    max-width:1180px;
+}
+.cover-title{
+    text-transform: uppercase;
+    margin-top:40px;
+}
+.cover{
+    min-height:400px;
+    padding-bottom:40px;
+}
+.cover img{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.footer{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.85);
+    color: rgba(255, 255, 255, 0.86);
+    padding-top:20px;
+    padding-bottom:20px;
+}
